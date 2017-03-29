@@ -2,11 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.beeva.app</groupId>
-	<artifactId>hola-mundo</artifactId>
+	<artifactId>calculadora</artifactId>
 	<packaging>jar</packaging>
 	<version>0.0.1</version>
-	<name>hola-mundo</name>
-	<url>http://maven.apache.org</url>
 	<build>
 		<plugins>
 			<plugin>
@@ -14,11 +12,9 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.6.0</version>
 				<configuration>
-					<mainClass>com.beeva.app.example1.Main</mainClass>
+					<mainClass>com.beeva.app.example3.Main</mainClass>
 					<arguments>
 						<argument>argument1</argument>
-						<argument>argument2</argument>
-						<argument>argument3</argument>
 					</arguments>
 				</configuration>
 			</plugin>
@@ -29,14 +25,6 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.8.1</version>
-			<scope>test</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>com.beeva.app</groupId>
-			<artifactId>calculadora</artifactId>
-			<version>0.0.1</version>
-		</dependency>
-
 	</dependencies>
 </project>
