@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CalculadoraTest {
-	
+
 	@Test
 	public void sumaTest() {
 		Calculadora cal = new Calculadora();
@@ -16,6 +16,6 @@ public class CalculadoraTest {
 	public void restaTest() {
 		Calculadora cal = new Calculadora();
 		int res = cal.resta(10,10);
-		assertEquals("10 - 10 = 20", res, 1);
+		assertEquals("10 - 10 = 0", res, 0);
 	}
 }
