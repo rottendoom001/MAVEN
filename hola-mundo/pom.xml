@@ -5,13 +5,13 @@
 	 <groupId>com.beeva.app</groupId>
 	 <artifactId>padre</artifactId>
 	 <version>0.0.1</version>
+	 <relativePath>../padre/pom.xml</relativePath>
  </parent>
 	<groupId>com.beeva.app</groupId>
 	<artifactId>hola-mundo</artifactId>
 	<packaging>jar</packaging>
 	<version>0.0.1</version>
 	<name>hola-mundo</name>
-	<url>http://maven.apache.org</url>
 	<build>
 		<plugins>
 			<plugin>

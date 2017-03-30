@@ -5,6 +5,10 @@
   <artifactId>padre</artifactId>
   <packaging>pom</packaging>
   <version>0.0.1</version>
+  <modules>
+       <module>../calculadora</module>
+       <module>../hola-mundo</module>
+  </modules>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
